@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="الموقع الشخصي والسيرة الذاتية لمحمد خروس — مدير خطوط الإنتاج.">
+  <meta name="theme-color" content="#0b1320">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_SA">
+<meta property="og:title" content="محمد خروس | السيرة الذاتية">
+<meta property="og:description" content="السيرة الذاتية الرقمية لمحمد خروس، مدير خطوط الإنتاج.">
+  <title>محمد خروس | السيرة الذاتية</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23d8a86b'/%3E%3Ctext x='32' y='43' font-family='Arial' font-size='26' font-weight='700' text-anchor='middle' fill='%230b1320'%3EMK%3C/text%3E%3C/svg%3E">
+<script>
+(function () {
+  var theme = "dark";
+  try {
+    theme = localStorage.getItem("mk-theme") ||
+      (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+  } catch (e) {}
+  document.documentElement.setAttribute("data-theme", theme);
+})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{color-scheme:dark;--bg:#0b1320;--bg2:#101d2d;--surface:#142235;--surface2:#192a40;--text:#f5f4ef;--muted:#aab9c9;--line:rgba(205,225,245,.14);--accent:#d8a86b;--accent2:#f1ca8c;--accent-text:#0b1320;--shadow:0 24px 80px rgba(0,0,0,.22);--font:'Cairo',Tahoma,sans-serif;--latin:'Manrope',sans-serif}
+    html[data-theme="light"]{color-scheme:light;--bg:#f4f1eb;--bg2:#eae6df;--surface:#fffdf8;--surface2:#f0ede6;--text:#132537;--muted:#5b6978;--line:rgba(19,37,55,.12);--accent:#ad7540;--accent2:#8f612e;--accent-text:#fff;--shadow:0 24px 70px rgba(32,38,45,.09)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:110px}body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font);font-weight:500;line-height:1.85;transition:background .24s,color .24s;overflow-x:hidden}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:4px}::selection{background:var(--accent);color:var(--accent-text)}
+    .progress{position:fixed;inset-block-start:0;inset-inline-start:0;width:0;height:3px;background:var(--accent);z-index:200;transition:width .08s linear}
+    .ambient{position:absolute;pointer-events:none;border-radius:50%;filter:blur(88px);opacity:.22}.ambient.a{width:360px;height:360px;top:0;right:-160px;background:#39728b}.ambient.b{width:320px;height:320px;top:250px;left:-180px;background:#ba8653}
+    .container{width:min(1160px,calc(100% - 48px));margin-inline:auto}
+    .site-header{position:sticky;top:0;z-index:100;background:color-mix(in srgb,var(--bg) 90%,transparent);border-bottom:1px solid var(--line);backdrop-filter:blur(22px)}
+    .nav-bar{min-height:80px;display:flex;align-items:center;justify-content:space-between;gap:22px}
+    .brand{display:flex;align-items:center;gap:10px;white-space:nowrap}.brand-mark{width:43px;height:43px;background:var(--accent);color:var(--accent-text);border-radius:13px;display:grid;place-items:center;font:800 18px var(--latin);transform:rotate(-7deg)}.brand-text{display:flex;flex-direction:column;line-height:1.35}.brand-text strong{font-size:16px;font-weight:900}.brand-text small{font:700 10px var(--latin);letter-spacing:2px;color:var(--muted)}
+    .nav-links{display:flex;align-items:center;gap:28px}.nav-links a{font-size:12px;color:var(--muted);font-weight:800;transition:color .2s}.nav-links a:hover,.nav-links a.active{color:var(--accent)}.nav-actions{display:flex;align-items:center;gap:8px}.icon-btn{border:1px solid var(--line);color:var(--text);background:var(--surface);width:40px;height:40px;border-radius:12px;display:grid;place-items:center;transition:transform .2s,border-color .2s}.icon-btn svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.icon-btn:hover{transform:translateY(-2px);border-color:var(--accent)}.lang-btn{min-width:65px;width:auto;padding:0 11px;font:800 12px var(--latin)}.menu-btn{display:none}
+    .hero{position:relative;min-height:650px;padding:92px 0 94px;display:grid;grid-template-columns:1.17fr .83fr;align-items:center;gap:60px}.hero-content,.hero-visual{position:relative;z-index:1}.eyebrow{display:flex;align-items:center;gap:12px;color:var(--accent);font:800 12px var(--latin);letter-spacing:2px;text-transform:uppercase}.eyebrow:before{content:'';width:24px;height:1px;background:currentColor}.hero h1{font-size:clamp(42px,5.4vw,78px);line-height:1.3;font-weight:900;letter-spacing:-2px;margin:20px 0 12px}html[lang="ar"] .hero h1{letter-spacing:0}html[lang="ar"] .exp-tag{letter-spacing:0;font-family:var(--font)}.hero h1 span{color:var(--accent)}.job-title{font-size:clamp(16px,2vw,22px);color:var(--muted);font-weight:700;margin:0 0 18px}.hero-summary{max-width:530px;color:var(--muted);font-size:15px;line-height:2.15;margin:0 0 30px}.cta{display:flex;flex-wrap:wrap;align-items:center;gap:12px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:9px 23px;border-radius:11px;font-weight:800;font-size:12px;transition:transform .2s,background .2s;border:1px solid transparent}.btn:hover{transform:translateY(-3px)}.btn-primary{background:var(--accent);color:var(--accent-text)}.btn-ghost{border-color:var(--line);background:var(--surface);color:var(--text)}.btn svg{width:17px;height:17px}.hero-note{display:flex;gap:12px;align-items:center;margin-top:38px;font:700 11px var(--latin);letter-spacing:1.4px;color:var(--muted);direction:ltr;justify-content:flex-end}.hero-note .dot{width:7px;height:7px;background:var(--accent);border-radius:100%;box-shadow:0 0 0 6px color-mix(in srgb,var(--accent) 12%,transparent)}
+    .profile-wrap{position:relative;max-width:380px;margin-inline:auto;width:100%;aspect-ratio:4/4.7;transform:rotate(-3deg)}.profile-outline{position:absolute;inset:0;border:1px solid var(--accent);border-radius:25px;transform:translate(-15px,15px)}.profile-card{position:absolute;inset:0;border-radius:25px;background:linear-gradient(145deg,#213950 0%,#152334 48%,#0d1724 100%);border:1px solid rgba(255,255,255,.18);box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;padding:33px;color:#fff}.profile-card:before{content:'';position:absolute;width:400px;height:400px;background:radial-gradient(circle,rgba(216,168,107,.17) 0%,transparent 65%);top:0;left:-150px}.profile-meta{position:relative;display:flex;justify-content:space-between;align-items:center;font:800 10px var(--latin);letter-spacing:2px;color:#c5c9ce}.profile-monogram{position:relative;text-align:center;font:800 clamp(100px,15vw,185px) var(--latin);letter-spacing:-14px;line-height:1;color:transparent;-webkit-text-stroke:1px rgba(244,202,151,.56);text-shadow:5px 5px 35px rgba(225,185,122,.09)}.profile-bottom{position:relative;border-top:1px solid rgba(255,255,255,.2);padding-top:17px;display:flex;justify-content:space-between;align-items:end;gap:14px}.profile-bottom strong{font-size:20px;font-weight:900;display:block}.profile-bottom small{font:700 11px var(--latin);color:#c6ccd3}.profile-bottom .badge{font:700 10px var(--latin);border:1px solid rgba(255,255,255,.3);padding:6px 9px;border-radius:20px;white-space:nowrap}
+    .info-strip{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:17px;overflow:hidden;background:var(--surface);margin-bottom:105px}.info-item{padding:23px 28px;display:flex;align-items:center;gap:15px}.info-item+ .info-item{border-inline-start:1px solid var(--line)}.info-item .symbol{width:46px;height:46px;display:grid;place-items:center;border-radius:13px;background:color-mix(in srgb,var(--accent) 10%,transparent);color:var(--accent);font-size:22px;flex:0 0 auto}.info-item small{display:block;font-size:11px;color:var(--muted);font-weight:700}.info-item strong{font-weight:900;font-size:14px}
+    .section{padding:0 0 120px}.section-heading{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:39px}.section-kicker{display:block;color:var(--accent);font:800 12px var(--latin);letter-spacing:2px;text-transform:uppercase;margin-bottom:7px}.section-heading h2{font-size:clamp(26px,3vw,38px);font-weight:900;line-height:1.5;margin:0}.section-heading p{max-width:360px;color:var(--muted);font-size:12px;line-height:1.9;margin:0}
+    .about-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:22px}.about-panel,.principle-panel{background:var(--surface);border:1px solid var(--line);border-radius:19px;padding:34px}.about-panel p{color:var(--muted);font-size:14px;line-height:2.2;margin:0}.about-panel strong{color:var(--text)}.mini-label{display:block;font:800 11px var(--latin);letter-spacing:1.5px;color:var(--accent);margin-bottom:20px}.principle-list{display:grid;gap:15px}.principle{display:flex;align-items:center;gap:13px;padding-bottom:14px;border-bottom:1px solid var(--line)}.principle:last-child{border:none;padding-bottom:0}.principle .check{color:var(--accent);width:29px;height:29px;border-radius:9px;background:color-mix(in srgb,var(--accent) 12%,transparent);display:grid;place-items:center;flex:0 0 auto;font-weight:900}.principle strong{font-size:13px;font-weight:800}
+    .skills-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.skill-card{background:var(--surface);border:1px solid var(--line);border-radius:17px;padding:23px 16px;min-height:193px;transition:transform .22s,border-color .22s,box-shadow .22s}.skill-card:hover{transform:translateY(-7px);border-color:var(--accent);box-shadow:var(--shadow)}.skill-num{display:block;color:var(--accent);font:800 12px var(--latin);margin-bottom:22px}.skill-icon{display:grid;place-items:center;width:43px;height:43px;border:1px solid var(--line);border-radius:12px;font-size:23px;margin-bottom:16px}.skill-card h3{font-size:13px;font-weight:900;margin:0 0 5px;line-height:1.7}.skill-card p{font-size:10px;color:var(--muted);line-height:1.9;margin:0}
+    .experience-list{display:grid;grid-template-columns:1fr 1fr;gap:20px}.exp-card{position:relative;overflow:hidden;padding:31px;background:var(--surface);border:1px solid var(--line);border-radius:18px;min-height:260px}.exp-card:before{content:'';position:absolute;height:3px;width:100%;inset-inline-start:0;top:0;background:linear-gradient(90deg,transparent,var(--accent),transparent)}.exp-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:27px}.exp-tag{font:800 11px var(--latin);letter-spacing:1px;color:var(--accent)}.exp-num{font:800 36px var(--latin);opacity:.15;color:var(--text)}.exp-card h3{font-weight:900;font-size:18px;line-height:1.7;margin:0 0 12px}.exp-card p{font-size:13px;color:var(--muted);margin:0;line-height:2.15}
+    .edu-panel{background:linear-gradient(110deg,var(--surface),var(--surface2));border:1px solid var(--line);padding:32px;border-radius:18px;display:flex;align-items:center;justify-content:space-between;gap:22px}.edu-row{display:flex;align-items:center;gap:17px}.edu-icon{display:grid;place-items:center;width:56px;height:56px;background:color-mix(in srgb,var(--accent) 12%,transparent);border-radius:14px;color:var(--accent);font-size:26px}.edu-panel h3{font-size:17px;font-weight:900;margin:0 0 2px}.edu-panel p{font-size:12px;color:var(--muted);margin:0}.edu-line{font:800 12px var(--latin);letter-spacing:2px;color:var(--accent)}
+    .contact-section{padding-bottom:60px}.contact-box{position:relative;overflow:hidden;background:linear-gradient(112deg,#c9975b,#e7bc80);color:#182334;border-radius:23px;padding:48px 52px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:24px}.contact-box:before{content:'';position:absolute;width:260px;height:260px;border:1px solid rgba(14,32,47,.15);border-radius:50%;inset-inline-end:-110px;inset-block-start:-140px}.contact-box .section-kicker{color:#563d25}.contact-box h2{font-weight:900;font-size:clamp(25px,3vw,37px);line-height:1.6;max-width:580px;margin:0 0 7px}.contact-box p{margin:0;font-size:13px;font-weight:700;opacity:.75}.contact-buttons{display:flex;flex-wrap:wrap;gap:9px;align-items:center;justify-content:flex-end;max-width:330px}.contact-buttons a{padding:11px 16px;border-radius:9px;background:#172638;color:#fff;font-size:11px;font-weight:900;white-space:nowrap}.contact-buttons a.secondary{background:transparent;color:#172638;border:1px solid rgba(23,38,56,.45)}
+    .contact-details{display:flex;gap:23px;flex-wrap:wrap;padding-top:23px;color:var(--muted);font:600 12px var(--latin);direction:ltr;justify-content:flex-end}.contact-details a:hover{color:var(--accent)}
+    .footer{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:24px 0 32px;border-top:1px solid var(--line);color:var(--muted);font-size:11px}.footer .footer-sign{font:800 11px var(--latin);letter-spacing:1px}.footer button{background:none;border:1px solid var(--line);color:var(--text);border-radius:9px;padding:8px 12px;font-size:11px;font-weight:800}.footer button:hover{border-color:var(--accent)}
+    .reveal{opacity:0;transform:translateY(18px);transition:opacity .55s ease,transform .55s ease}.reveal.visible{opacity:1;transform:none}
+    @media(max-width:980px){.nav-links{gap:16px}.nav-links a{font-size:11px}.hero{gap:35px;min-height:570px}.skills-grid{grid-template-columns:repeat(3,1fr)}.info-item{padding:19px 15px}.info-item strong{font-size:12px}.contact-box{grid-template-columns:1fr}.contact-buttons{justify-content:flex-start;max-width:none}}
+    @media(max-width:720px){.ambient{display:none}.container{width:min(100% - 30px,1160px)}.nav-bar{min-height:72px}.brand-text strong{font-size:13px}.brand-mark{width:38px;height:38px}.nav-links{display:none;position:absolute;inset-inline:0;top:72px;background:var(--bg2);border-bottom:1px solid var(--line);padding:16px 20px;flex-direction:column;align-items:stretch;gap:4px;box-shadow:var(--shadow)}.nav-links.open{display:flex}.nav-links a{font-size:14px;padding:8px 10px}.menu-btn{display:grid}.hero{grid-template-columns:1fr;gap:30px;min-height:0;padding:55px 0 60px}.hero h1{margin-top:12px}.hero-visual{max-width:315px;width:100%;margin-inline:auto}.profile-wrap{max-width:300px}.hero-note{margin-top:28px}.info-strip{grid-template-columns:1fr;margin-bottom:70px}.info-item+ .info-item{border-inline-start:none;border-top:1px solid var(--line)}.section{padding-bottom:78px}.section-heading{display:block}.section-heading p{margin-top:12px}.about-grid,.experience-list{grid-template-columns:1fr}.skills-grid{grid-template-columns:repeat(2,1fr)}.skill-card{min-height:166px}.contact-box{padding:35px 23px}.contact-buttons{gap:10px}.contact-details{justify-content:center;font-size:10px}.edu-panel{padding:23px}.edu-line{display:none}.footer{flex-wrap:wrap}}
+    @media(max-width:390px){.hero h1{font-size:42px}.skills-grid{grid-template-columns:1fr}.skill-card{min-height:130px}.contact-buttons a{width:100%;text-align:center}.nav-actions{gap:5px}.lang-btn{min-width:54px}.brand-text{display:none}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}.reveal{opacity:1;transform:none}}
+    @media print{:root,html[data-theme="dark"],html[data-theme="light"]{--bg:#fff;--bg2:#fff;--surface:#fff;--surface2:#fff;--text:#111;--muted:#444;--line:#ddd;--accent:#986d43;color-scheme:light}html,body{background:#fff!important;color:#111!important}body{font-size:11px}.site-header,.progress,.ambient,.hero-note,.cta,.footer button,.profile-outline,.contact-buttons{display:none!important}.container{width:100%}.hero{padding:18px 0 25px;min-height:0;grid-template-columns:1.3fr .5fr}.profile-wrap{max-width:150px;aspect-ratio:1;transform:none}.profile-card{padding:12px;border-radius:10px}.profile-monogram{font-size:55px}.profile-bottom strong{font-size:10px}.profile-bottom small,.profile-bottom .badge{display:none}.hero h1{font-size:35px}.hero-summary{font-size:10px}.info-strip{margin-bottom:22px}.info-item{padding:10px}.info-item .symbol{width:28px;height:28px}.section{padding-bottom:25px;break-inside:avoid}.section-heading{margin-bottom:12px}.section-heading h2{font-size:20px}.section-heading p{display:none}.about-panel,.principle-panel,.exp-card{padding:15px}.skills-grid{grid-template-columns:repeat(5,1fr)}.skill-card{min-height:100px;padding:9px}.skill-num{margin:0}.skill-icon{display:none}.skill-card p{font-size:8px}.experience-list{gap:10px}.exp-card{min-height:0}.exp-top{margin-bottom:4px}.exp-num{display:none}.contact-section{padding-bottom:12px}.contact-box{padding:15px;background:#eee!important;border:1px solid #ddd;color:#111;display:block}.contact-box h2{font-size:18px}.contact-details{color:#333;justify-content:flex-end;padding-top:7px}.footer{padding:12px 0}.reveal{opacity:1!important;transform:none!important}a[href]:after{content:none!important}}
+  </style>
+</head>
+<body>
+  <div class="progress" id="scroll-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a href="#home" class="brand" aria-label="العودة إلى الصفحة الرئيسية">
+        <span class="brand-mark">MK.</span>
+        <span class="brand-text"><strong data-i18n="brand">محمد خروس</strong><small>PERSONAL PROFILE</small></span>
+      </a>
+      <nav class="nav-links" id="navigation" aria-label="التنقل الرئيسي">
+        <a href="#about" data-i18n="navAbout">نبذة</a>
+        <a href="#skills" data-i18n="navSkills">المهارات</a>
+        <a href="#experience" data-i18n="navExperience">الخبرات</a>
+        <a href="#education" data-i18n="navEducation">التعليم</a>
+        <a href="#contact" data-i18n="navContact">التواصل</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn lang-btn" id="lang-toggle" type="button" aria-label="Switch website language">EN</button>
+        <button class="icon-btn" id="print-top" type="button" aria-label="طباعة السيرة الذاتية" title="طباعة السيرة الذاتية">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M6 14h12v7H6z"/></svg>
+        </button>
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="تبديل الوضع الليلي والنهاري" title="تبديل المظهر"><span id="theme-symbol" aria-hidden="true">☀</span></button>
+        <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-label="فتح القائمة" aria-expanded="false" aria-controls="navigation">☰</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <section class="hero" id="home">
+        <span class="ambient a"></span><span class="ambient b"></span>
+        <div class="hero-content">
+          <div class="eyebrow">CURRICULUM VITAE / 2026</div>
+          <h1><span data-i18n="hello">مرحبًا، أنا</span><br><span data-i18n="name">محمد خروس</span><span style="color:var(--text)">.</span></h1>
+          <p class="job-title" data-i18n="role">مدير خطوط الإنتاج</p>
+          <p class="hero-summary" data-i18n="intro">أسعى إلى تطوير العمليات الإنتاجية ورفع كفاءة الأداء من خلال القيادة الفعالة والتخطيط المستمر.</p>
+          <div class="cta">
+            <a class="btn btn-primary" href="#experience"><span data-i18n="explore">استكشف خبراتي</span><span aria-hidden="true">↗</span></a>
+            <a class="btn btn-ghost" href="#contact"><span data-i18n="talk">تواصل معي</span><span aria-hidden="true">✉</span></a>
+          </div>
+          <div class="hero-note"><span class="dot"></span><span>BUILD • IMPROVE • LEAD</span></div>
+        </div>
+        <div class="hero-visual" aria-label="بطاقة تعريف شخصية بتصميم حرفي MK">
+          <div class="profile-wrap"><div class="profile-outline"></div>
+            <div class="profile-card">
+              <div class="profile-meta"><span>MOHAMAD KHAROUS</span><span>01 / PROFILE</span></div>
+              <div class="profile-monogram">MK</div>
+              <div class="profile-bottom"><div><strong data-i18n="cardName">محمد خروس</strong><small>PRODUCTION MANAGER</small></div><span class="badge">CV 2026</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="info-strip reveal" aria-label="مجالات التركيز الرئيسية">
+        <div class="info-item"><span class="symbol">◈</span><div><small data-i18n="focus1Label">التوجيه</small><strong data-i18n="focus1">القيادة والإشراف</strong></div></div>
+        <div class="info-item"><span class="symbol">▤</span><div><small data-i18n="focus2Label">التشغيل</small><strong data-i18n="focus2">تنظيم الإنتاج</strong></div></div>
+        <div class="info-item"><span class="symbol">↗</span><div><small data-i18n="focus3Label">التطوير</small><strong data-i18n="focus3">تحسين الكفاءة</strong></div></div>
+      </div>
+      <section class="section" id="about">
+        <div class="section-heading reveal"><div><span class="section-kicker">01 / ABOUT</span><h2 data-i18n="aboutTitle">نبذة تعريفية</h2></div><p data-i18n="aboutNote">خبرة في إدارة خطوط الإنتاج وتحسين العمليات الإنتاجية.</p></div>
+        <div class="about-grid">
+          <div class="about-panel reveal"><span class="mini-label">WHO I AM</span><p data-i18n="aboutCopy">أمتلك خبرة واسعة في إدارة خطوط الإنتاج وتحسين العمليات الإنتاجية. أتمتع بمهارات قوية في حل المشكلات والتفكير الاستراتيجي، وأسعى دائمًا لتحقيق نتائج متميزة من خلال القيادة الفعالة والتخطيط الدقيق.</p></div>
+          <div class="principle-panel reveal"><span class="mini-label">MY APPROACH</span><div class="principle-list"><div class="principle"><span class="check">✓</span><strong data-i18n="principle1">تنظيم المهام وتحديد الأولويات</strong></div><div class="principle"><span class="check">✓</span><strong data-i18n="principle2">التعاون والتواصل مع فريق العمل</strong></div><div class="principle"><span class="check">✓</span><strong data-i18n="principle3">حل المشكلات وتحسين سير الإنتاج</strong></div></div></div>
+        </div>
+      </section>
+      <section class="section" id="skills">
+        <div class="section-heading reveal"><div><span class="section-kicker">02 / SKILLS</span><h2 data-i18n="skillsTitle">المهارات</h2></div><p data-i18n="skillsNote">خمس مهارات أساسية في إدارة الإنتاج والعمل الجماعي.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><span class="skill-num">01</span><span class="skill-icon">◇</span><h3 data-i18n="skill1">حل المشكلات</h3><p data-i18n="skill1Desc">تحليل التحديات للوصول إلى حلول عملية.</p></article>
+          <article class="skill-card reveal"><span class="skill-num">02</span><span class="skill-icon">↗</span><h3 data-i18n="skill2">التفكير المرن</h3><p data-i18n="skill2Desc">التكيّف مع متطلبات العمل المتغيرة.</p></article>
+          <article class="skill-card reveal"><span class="skill-num">03</span><span class="skill-icon">♧</span><h3 data-i18n="skill3">القيادة والإشراف</h3><p data-i18n="skill3Desc">متابعة الفرق وتنسيق المسؤوليات.</p></article>
+          <article class="skill-card reveal"><span class="skill-num">04</span><span class="skill-icon">▤</span><h3 data-i18n="skill4">التخطيط الإنتاجي</h3><p data-i18n="skill4Desc">تنظيم سير العمل ومتابعة التنفيذ.</p></article>
+          <article class="skill-card reveal"><span class="skill-num">05</span><span class="skill-icon">✳</span><h3 data-i18n="skill5">مهارات التواصل</h3><p data-i18n="skill5Desc">تبادل المعلومات بوضوح مع الفريق.</p></article>
+        </div>
+      </section>
+      <section class="section" id="experience">
+        <div class="section-heading reveal"><div><span class="section-kicker">03 / PROJECTS & EXPERIENCE</span><h2 data-i18n="expTitle">المشاريع والخبرات</h2></div><p data-i18n="expNote">خبرة مهنية ومشاركة إنسانية.</p></div>
+        <div class="experience-list">
+          <article class="exp-card reveal"><div class="exp-top"><span class="exp-tag" data-i18n="expTag2">مشروع إنساني</span><span class="exp-num">01</span></div><h3 data-i18n="exp2">مشروع إنسان لترميم المنازل القديمة</h3><p data-i18n="expDesc2">المشاركة في مشروع إنساني يهدف إلى ترميم المنازل القديمة والمساهمة في تحسين ظروف السكن.</p></article>
+          <article class="exp-card reveal"><div class="exp-top"><span class="exp-tag" data-i18n="expTag1">خبرة مهنية</span><span class="exp-num">02</span></div><h3 data-i18n="exp1">إدارة خطوط الإنتاج</h3><p data-i18n="expDesc1">متابعة سير العمليات الإنتاجية وتنظيم العمل والإشراف على المعدات والعمال وتحسين كفاءة الإنتاج.</p></article>
+        </div>
+      </section>
+      <section class="section" id="education">
+        <div class="section-heading reveal"><div><span class="section-kicker">04 / EDUCATION</span><h2 data-i18n="eduTitle">التعليم</h2></div><p data-i18n="eduNote">المؤهل التعليمي.</p></div>
+        <div class="edu-panel reveal"><div class="edu-row"><span class="edu-icon" aria-hidden="true">▣</span><div><h3 data-i18n="eduDegree">شهادة الثانوية العامة</h3><p data-i18n="eduCaption">المؤهل التعليمي</p></div></div><span class="edu-line">EDUCATION / CV</span></div>
+      </section>
+      <section class="contact-section reveal" id="contact">
+        <div class="contact-box"><div><span class="section-kicker">05 / CONTACT</span><h2 data-i18n="contactTitle">لنعمل معًا على تحقيق نتائج أفضل</h2><p data-i18n="contactText">يسعدني التواصل ومناقشة فرص التعاون والعمل.</p></div><div class="contact-buttons"><a href="mailto:mohammed.khrous55@gmail.com" data-i18n="emailBtn">أرسل بريدًا إلكترونيًا</a><a class="secondary" href="https://wa.me/966594478231" target="_blank" rel="noopener noreferrer" data-i18n="whatsappBtn">واتساب ↗</a></div></div>
+        <div class="contact-details"><a href="mailto:mohammed.khrous55@gmail.com">mohammed.khrous55@gmail.com</a><a href="tel:+966594478231">+966 59 447 8231</a></div>
+      </section>
+      <footer class="footer"><span class="footer-copy"><span data-i18n="footerPrefix">©</span> <span id="year">2026</span> <span data-i18n="footerSuffix">محمد خروس. جميع الحقوق محفوظة.</span></span><span class="footer-sign">DESIGNED WITH PURPOSE • MK</span><button id="print-btn" type="button" data-i18n="printBtn">⎙ طباعة السيرة الذاتية</button></footer>
+    </div>
+  </main>
+  <script>
+    (()=>{
+      'use strict';
+      const translations={
+        ar:{brand:'محمد خروس',navAbout:'نبذة',navSkills:'المهارات',navExperience:'الخبرات',navEducation:'التعليم',navContact:'التواصل',hello:'مرحبًا، أنا',name:'محمد خروس',role:'مدير خطوط الإنتاج',intro:'أسعى إلى تطوير العمليات الإنتاجية ورفع كفاءة الأداء من خلال القيادة الفعالة والتخطيط المستمر.',explore:'استكشف خبراتي',talk:'تواصل معي',cardName:'محمد خروس',focus1Label:'التوجيه',focus1:'القيادة والإشراف',focus2Label:'التشغيل',focus2:'تنظيم الإنتاج',focus3Label:'التطوير',focus3:'تحسين الكفاءة',aboutTitle:'نبذة تعريفية',aboutNote:'خبرة في إدارة خطوط الإنتاج وتحسين العمليات الإنتاجية.',aboutCopy:'أمتلك خبرة واسعة في إدارة خطوط الإنتاج وتحسين العمليات الإنتاجية. أتمتع بمهارات قوية في حل المشكلات والتفكير الاستراتيجي، وأسعى دائمًا لتحقيق نتائج متميزة من خلال القيادة الفعالة والتخطيط الدقيق.',principle1:'تنظيم المهام وتحديد الأولويات',principle2:'التعاون والتواصل مع فريق العمل',principle3:'حل المشكلات وتحسين سير الإنتاج',skillsTitle:'المهارات',skillsNote:'خمس مهارات أساسية في إدارة الإنتاج والعمل الجماعي.',skill1:'حل المشكلات',skill1Desc:'تحليل التحديات للوصول إلى حلول عملية.',skill2:'التفكير المرن',skill2Desc:'التكيّف مع متطلبات العمل المتغيرة.',skill3:'القيادة والإشراف',skill3Desc:'متابعة الفرق وتنسيق المسؤوليات.',skill4:'التخطيط الإنتاجي',skill4Desc:'تنظيم سير العمل ومتابعة التنفيذ.',skill5:'مهارات التواصل',skill5Desc:'تبادل المعلومات بوضوح مع الفريق.',expTitle:'المشاريع والخبرات',expNote:'خبرة مهنية ومشاركة إنسانية.',expTag1:'خبرة مهنية',exp1:'إدارة خطوط الإنتاج',expDesc1:'متابعة سير العمليات الإنتاجية وتنظيم العمل والإشراف على المعدات والعمال وتحسين كفاءة الإنتاج.',expTag2:'مشروع إنساني',exp2:'مشروع إنسان لترميم المنازل القديمة',expDesc2:'المشاركة في مشروع إنساني يهدف إلى ترميم المنازل القديمة والمساهمة في تحسين ظروف السكن.',eduTitle:'التعليم',eduNote:'المؤهل التعليمي.',eduDegree:'شهادة الثانوية العامة',eduCaption:'المؤهل التعليمي',contactTitle:'لنعمل معًا على تحقيق نتائج أفضل',contactText:'يسعدني التواصل ومناقشة فرص التعاون والعمل.',emailBtn:'أرسل بريدًا إلكترونيًا',whatsappBtn:'واتساب ↗',footerPrefix:'©',footerSuffix:'محمد خروس. جميع الحقوق محفوظة.',printBtn:'⎙ طباعة السيرة الذاتية'},
+        en:{brand:'Mohamad Kharous',navAbout:'About',navSkills:'Skills',navExperience:'Experience',navEducation:'Education',navContact:'Contact',hello:'Hello, I am',name:'Mohamad Kharous',role:'Production Lines Manager',intro:'I aim to develop production operations and improve performance through effective leadership and continuous planning.',explore:'Explore Experience',talk:'Get in Touch',cardName:'Mohamad Kharous',focus1Label:'FOCUS ONE',focus1:'Leadership & Supervision',focus2Label:'FOCUS TWO',focus2:'Production Coordination',focus3Label:'FOCUS THREE',focus3:'Efficiency Improvement',aboutTitle:'About',aboutNote:'Experience in managing production lines and improving production processes.',aboutCopy:'I have extensive experience in managing production lines and improving production processes. I have strong problem-solving and strategic-thinking skills, and I always aim for outstanding results through effective leadership and precise planning.',principle1:'Organizing tasks and priorities',principle2:'Teamwork and clear communication',principle3:'Solving problems and improving workflow',skillsTitle:'Skills',skillsNote:'Five core skills for production management and teamwork.',skill1:'Problem Solving',skill1Desc:'Analyzing challenges to find practical solutions.',skill2:'Adaptability',skill2Desc:'Responding to changing work requirements.',skill3:'Leadership & Supervision',skill3Desc:'Overseeing teams and coordinating responsibilities.',skill4:'Production Planning',skill4Desc:'Organizing workflows and following up on execution.',skill5:'Communication',skill5Desc:'Sharing information clearly with the team.',expTitle:'Projects & Experience',expNote:'Professional experience and community involvement.',expTag1:'PROFESSIONAL EXPERIENCE',exp1:'Production Lines Management',expDesc1:'Monitoring production operations, organizing work, supervising equipment and workers, and improving production efficiency.',expTag2:'HUMANITARIAN PROJECT',exp2:'Insan Home Restoration Project',expDesc2:'Participating in a humanitarian project to renovate older homes and contribute to improved living conditions.',eduTitle:'Education',eduNote:'Educational qualification.',eduDegree:'High School Diploma',eduCaption:'Educational qualification',contactTitle:"Let's work together for better results",contactText:'I would be glad to connect and discuss collaboration and work opportunities.',emailBtn:'Send an Email',whatsappBtn:'WhatsApp ↗',footerPrefix:'©',footerSuffix:'Mohamad Kharous. All rights reserved.',printBtn:'⎙ Print CV'}
+      };
+      const root=document.documentElement,themeBtn=document.getElementById('theme-toggle'),themeSymbol=document.getElementById('theme-symbol'),langBtn=document.getElementById('lang-toggle'),menuBtn=document.getElementById('menu-toggle'),menu=document.getElementById('navigation'),progress=document.getElementById('scroll-progress');
+      function getSaved(k,def){try{return localStorage.getItem(k)||def}catch{return def}}
+      function setSaved(k,v){try{localStorage.setItem(k,v)}catch{}}
+      function setTheme(theme){root.dataset.theme=theme;themeSymbol.textContent=theme==='dark'?'☀':'☾';const dark=theme==='dark';themeBtn.setAttribute('aria-label',dark?'التبديل إلى الوضع النهاري':'التبديل إلى الوضع الليلي');themeBtn.title=dark?'التبديل إلى الوضع النهاري':'التبديل إلى الوضع الليلي';const meta=document.querySelector('meta[name="theme-color"]');if(meta)meta.content=dark?'#0b1320':'#f4f1eb';setSaved('mk-theme',theme)}
+      function setLang(lang){root.lang=lang;root.dir=lang==='ar'?'rtl':'ltr';langBtn.textContent=lang==='ar'?'EN':'عربي';document.title=lang==='ar'?'محمد خروس | السيرة الذاتية':'Mohamad Kharous | Personal CV';document.querySelectorAll('[data-i18n]').forEach(el=>{const key=el.dataset.i18n;if(translations[lang][key])el.textContent=translations[lang][key]});setSaved('mk-lang',lang);syncLabels()}
+      const labels={ar:{themeLight:'التبديل إلى الوضع النهاري',themeDark:'التبديل إلى الوضع الليلي',print:'طباعة السيرة الذاتية',menuOpen:'فتح القائمة',menuClose:'إغلاق القائمة'},en:{themeLight:'Switch to light mode',themeDark:'Switch to dark mode',print:'Print CV',menuOpen:'Open menu',menuClose:'Close menu'}};
+      function L(k){return labels[root.lang==='en'?'en':'ar'][k]}
+      function syncLabels(){const dark=root.dataset.theme==='dark';const tl=L(dark?'themeLight':'themeDark');themeBtn.setAttribute('aria-label',tl);themeBtn.title=tl;const pl=L('print');['print-btn','print-top'].forEach(id=>{const b=document.getElementById(id);if(b){b.setAttribute('aria-label',pl);b.title=pl}});const open=menu.classList.contains('open');menuBtn.setAttribute('aria-label',L(open?'menuClose':'menuOpen'));menuBtn.title=menuBtn.getAttribute('aria-label')}
+      function setMenu(open){menu.classList.toggle('open',open);menuBtn.setAttribute('aria-expanded',String(open));menuBtn.textContent=open?'✕':'☰';syncLabels()}
+      setTheme(root.dataset.theme||getSaved('mk-theme','dark'));setLang(getSaved('mk-lang','ar'));
+      themeBtn.addEventListener('click',()=>{setTheme(root.dataset.theme==='dark'?'light':'dark');syncLabels()});
+      langBtn.addEventListener('click',()=>setLang(root.lang==='ar'?'en':'ar'));
+      menuBtn.addEventListener('click',()=>setMenu(!menu.classList.contains('open')));
+      menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>setMenu(false)));
+      document.addEventListener('click',e=>{if(menu.classList.contains('open')&&!menu.contains(e.target)&&!menuBtn.contains(e.target))setMenu(false)});
+      document.addEventListener('keydown',e=>{if(e.key==='Escape')setMenu(false)});
+      window.addEventListener('resize',()=>{if(window.innerWidth>720)setMenu(false)});
+      ['print-btn','print-top'].forEach(id=>{const b=document.getElementById(id);if(b)b.addEventListener('click',()=>window.print())});
+      const y=document.getElementById('year');if(y)y.textContent=new Date().getFullYear();
+      function updateProgress(){const max=document.documentElement.scrollHeight-window.innerHeight;progress.style.width=(max>0?Math.min(100,window.scrollY/max*100):0)+'%'}
+      window.addEventListener('scroll',updateProgress,{passive:true});updateProgress();
+      if('IntersectionObserver'in window){const revealObserver=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');revealObserver.unobserve(e.target)}})},{threshold:.07});document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));const navObserver=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){menu.querySelectorAll('a').forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id))}})},{rootMargin:'-25% 0px -65% 0px'});document.querySelectorAll('section[id]').forEach(el=>navObserver.observe(el))}else{document.querySelectorAll('.reveal').forEach(el=>el.classList.add('visible'))}
+    })();
+  </script>
+</body>
+</html>
